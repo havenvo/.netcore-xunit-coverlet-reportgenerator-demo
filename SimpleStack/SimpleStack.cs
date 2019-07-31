@@ -13,7 +13,7 @@ namespace SimpleStack {
         }
 
         public bool Contains (string value) {
-            throw new System.NotImplementedException ();
+            return data.Contains(value);
         }
 
         public bool IsEmpty () {

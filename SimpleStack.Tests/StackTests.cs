@@ -27,5 +27,12 @@ namespace SimpleStack.Tests {
             stack.Clear ();
             Assert.True (stack.IsEmpty ());
         }
+
+        [Fact]
+        public void ContainsShouldWork () {
+            IStack stack = new Stack ();
+            stack.Push("A");
+            Assert.True(stack.Contains("A"));
+        }
     }
 }
