@@ -210,7 +210,7 @@ var assemblies = [
   {
     "name": "SimpleStack",
     "classes": [
-      { "name": "SimpleStack.Stack", "rp": "SimpleStack_Stack.htm", "cl": 27, "ucl": 2, "cal": 29, "tl": 45, "ct": "LineCoverage", "mc": "-", "cb": 3, "tb": 4, "lch": [], "bch": [], "hc": [] },
+      { "name": "SimpleStack.Stack", "rp": "SimpleStack_Stack.htm", "cl": 26, "ucl": 1, "cal": 27, "tl": 43, "ct": "LineCoverage", "mc": "-", "cb": 3, "tb": 4, "lch": [], "bch": [], "hc": [] },
     ]},
 ];
 
