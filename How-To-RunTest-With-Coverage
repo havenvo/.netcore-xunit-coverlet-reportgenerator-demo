@@ -5,4 +5,4 @@ dotnet test /p:CollectCoverage=true /p:CoverletOutputFormat=lcov /p:CoverletOutp
 dotnet test /p:CollectCoverage=true /p:CoverletOutputFormat=opencover
 
 # ReportGenerator
-dotnet ReportGenerator.dll "-reports:..\coverage.opencover.xml" "-targetdir:..\report"
+dotnet ReportGenerator_4.0.15/ReportGenerator.dll "-reports:coverage.opencover.xml" "-targetdir:report"
