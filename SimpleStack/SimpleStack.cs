@@ -13,7 +13,7 @@ namespace SimpleStack {
         }
 
         public bool Contains (string value) {
-            return data.Contains(value);
+            return data.Contains (value);
         }
 
         public bool IsEmpty () {
@@ -21,25 +21,23 @@ namespace SimpleStack {
         }
 
         public string Peek () {
-            if (IsEmpty ()) 
-            {
+            if (IsEmpty ()) {
                 throw new StackEmptyException ();
             }
             return data[data.Count - 1];
         }
 
         public string Pop () {
-            if (IsEmpty ()) 
-            {
+            if (IsEmpty ()) {
                 throw new StackEmptyException ();
             }
             var result = data[data.Count - 1];
-            data.Remove(result);
+            data.Remove (result);
             return result;
         }
 
         public void Push (string value) {
-            data.Add(value);
+            data.Add (value);
         }
     }
 }
